@@ -1,0 +1,38 @@
+ body {
+     background-image: url('https://cms.qz.com/wp-content/uploads/2018/09/indian-railways-history.jpg?quality=75&strip=all&w=1600&h=900&crop=1');
+ }
+ 
+ body {
+     color: black;
+ }
+ 
+ #text-input1 {
+     background-color: black;
+ }
+ 
+ #text-input2 {
+     background-color: black;
+ }
+ 
+ #text-input3 {
+     background-color: black;
+ }
+ 
+ #text-input4 {
+     background-color: black;
+ }
+ 
+ #Train {
+     color: black;
+     background-color: aqua;
+ }
+ 
+ #Train2 {
+     color: black;
+     background-color: whitesmoke;
+ }
+ 
+ #Train3 {
+     color: black;
+     background-color: cyan;
+ }

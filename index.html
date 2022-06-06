@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+
+
+<body>
+
+    <h1 style="text-align: center;"><img src="https://play-lh.googleusercontent.com/pOhc9TAENgN1MXuU42s6tiT7KCJ-PSl7zoSH9r_AfIx-rkfIOHNvJHanJPw-HBa09w" height="80" width="80"> IRCTC Search</h1>
+
+    <p style="background-image: url('https://cms.qz.com/wp-content/uploads/2018/09/indian-railways-history.jpg?quality=75&strip=all&w=1600&h=900&crop=1');"></p>
+
+    <button id="submitBtn" class="btn btn-primary" type="submitBtn" style="text-align: center;">Search Between staction</button><br>
+
+    <!-- <div class="container my-3">
+        <div class="my-card">
+            <div class="card-body">
+                <h2 class="card-title"></h2>
+                <div class="form-group" id="my-form"></div>
+            </div>
+            <input id="text-input3" type="text" placeholder="From staction" />
+            <input id="text-input4" type="text" placeholder="To Staction"><br>
+            <br><button id="submitBtn" class="btn btn-primary" type="submitBtn" style="text-align: center;">Search Between staction</button><br><br>
+        </div>
+
+    </div> -->
+
+    <!-- <button id="search3" class="btn btn-primary" style="text-align: center;">Search Between staction</button><br><br> -->
+
+    <div class="container my-3">
+        <div class="card">
+            <div class="card-body">
+                <h2 class="card-title"></h2>
+                <div class="form-group" id="my-form"></div>
+            </div>
+            <input id="text-input1" type="text" placeholder="From staction" />
+            <input id="text-input2" type="text" placeholder="To Staction"><br>
+            <br><button id="search2" class="btn btn-primary" style="text-align: center;">Search</button><br><br>
+        </div>
+
+    </div>
+
+    <button id="search" class="btn btn-primary" style="text-align: center;">Search Trains</button>
+
+    <div id="output" class="container"></div>
+
+    <script src="./search.js"></script>
+    <script src="./station.js"></script><br>
+    <script src="./between.js"></script><br>
+</body>
+
+</html>
